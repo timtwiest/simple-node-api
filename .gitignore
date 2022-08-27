@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build directory
+/build
+
+# Jetbrains
+.idea
+
+# VIM files
+*~
+*.swp
+*.swo
+
+# Envoriment files
+.env
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directories
+/node_modules
+/jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Lock files
+.DS_Store

@@ -1,0 +1,20 @@
+{
+  "name": "simple-node-api",
+  "version": "1.0.0",
+  "description": "A simple node.js API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timtwiest/simple-node-api.git"
+  },
+  "keywords": [],
+  "author": "Tim Twiest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timtwiest/simple-node-api/issues"
+  },
+  "homepage": "https://github.com/timtwiest/simple-node-api#readme"
+}
