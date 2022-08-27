@@ -23,7 +23,10 @@
   "homepage": "https://github.com/timtwiest/simple-node-api#readme",
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
+    "cors": "^2.8.5",
+    "helmet": "^6.0.0",
     "module-alias": "^2.2.2",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1"
