@@ -4,7 +4,8 @@
   "description": "A simple node.js API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "nodemon:inspect": "nodemon --inspect src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/timtwiest/simple-node-api/issues"
   },
-  "homepage": "https://github.com/timtwiest/simple-node-api#readme"
+  "homepage": "https://github.com/timtwiest/simple-node-api#readme",
+  "devDependencies": {
+    "module-alias": "^2.2.2",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "typescript": "^4.8.2"
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "ES2019"
+    ],
+    "target": "es2019",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "pretty": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.js"
+  ]
+}
