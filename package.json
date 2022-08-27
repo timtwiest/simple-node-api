@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/timtwiest/simple-node-api.git"
   },
+  "_moduleAliases": {
+    "$": "./src"
+  },
   "keywords": [],
   "author": "Tim Twiest",
   "license": "ISC",
@@ -19,6 +22,7 @@
   },
   "homepage": "https://github.com/timtwiest/simple-node-api#readme",
   "devDependencies": {
+    "@types/module-alias": "^2.0.1",
     "module-alias": "^2.2.2",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
